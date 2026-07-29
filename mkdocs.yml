@@ -66,6 +66,7 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - bibtex:
       bib_file: "references.bib"
+  - include-markdown
   - redirects:
       redirect_maps:
         'models/run_a_model/run_access-ram.md': 'models/run_a_model/run_access-ram3.md'
@@ -136,6 +137,7 @@ nav:
     - Run a Model:
       - models/run_a_model/index.md
       - Run models using Rose/Cylc: models/run_a_model/rose_cylc.md
+      - Run ACCESS-AM3: models/run_a_model/run_access-am3.md
       - Run ACCESS-CM2: models/run_a_model/run_access-cm2.md
       - Run ACCESS-ESM1.5: models/run_a_model/run_access-esm.md
       - Run ACCESS-OM2: models/run_a_model/run_access-om2.md
